@@ -1,0 +1,404 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  text-align: center;
+}
+.img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ol,
+ul {
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(124, 121, 121) !important;
+}
+
+.white {
+  color: white !important;
+}
+
+.bg {
+  background-image: url('./image/background.jpg');
+  background-size: cover;
+  padding: 200px;
+  margin-bottom: 80px;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-align: center;
+  background-attachment: fixed;
+}
+.card
+{
+  border: none;
+}
+
+.bg::before {
+  background-color: rgba(33, 25, 25, 0.6);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.ul li {
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.main li a {
+  padding: 38px 10px;
+  display: block;
+  color: #272727;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.main li {
+  position: relative;
+}
+
+.main li:hover>a {
+  color: #FFBC06 !important;
+}
+
+.main li a i {
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.icon li a i {
+  padding: 7px 14px;
+  color: #272727;
+  font-size: 10px;
+}
+
+.main li {
+  padding-left: 25px;
+}
+
+.main li .service {
+  padding-left: 5px;
+}
+
+.sub {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(50px);
+  transition: .5s;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  width: 250px;
+  box-shadow: 2px 2px 15px gray;
+  z-index: 1;
+}
+
+.sub li {
+  display: block;
+}
+
+.sub li a {
+  color: #272727;
+  padding: 5px 10px;
+  transition: .5s;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.main li:hover .sub {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+.sub li a:hover {
+  color: #f5a96e;
+  padding-left: 30px;
+}
+
+button {
+  border: none;
+}
+
+.btn1 {
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6,
+p {
+  text-align: center;
+  /* color: rgb(50, 49, 49); */
+}
+/* -----------------start new arrival sec--------------------- */
+.new
+{
+  position: relative!important;
+}
+.content
+{
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
+.trans img:hover 
+{
+  transform: rotateY(30deg);
+}
+/* -----------------end new arrival sec--------------------- */
+.d-flex .cont
+{
+  margin-left: 2%;
+}
+/* ----------------------smart phone start--------------------------- */
+.card:hover
+{
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 10px wheat;
+}
+.yellow {
+  color: #fd7e14;
+  font-size: 12px;
+}
+
+.c1 {
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 30px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(189, 180, 180);
+  /* margin-left: 15px; */
+}
+
+.circle i {
+  color: rgb(131, 123, 123);
+  margin: 7px;
+  font-size: 12px;
+}
+
+.c1 i+i {
+  margin-left: 20%;
+}
+
+.icon {
+  margin-left: 35%;
+}
+
+.mb {
+  margin-bottom: 10px;
+}
+
+/* .img
+{
+  width: 100%;
+  height: 100%;
+  position: center;
+} */
+/* ----------------------smart phone end--------------------------- */
+/* -------------------start brand sec---------------------- */
+.brand {
+  position: absolute;
+  bottom: 3%;
+  right: 10%;
+}
+
+.brand h5 {
+  color: rgb(106, 102, 102) !important;
+}
+
+.brand h5:hover {
+  color: #ffc107 !important;
+}
+
+.caption_main {
+  position: relative;
+  overflow: hidden;
+}
+
+.caption_img img {
+  height: 100%;
+  width: 100%;
+}
+
+/* -------------------end brand sec---------------------- */
+/* ------------------start upcoming sec---------------------- */
+.upc {
+  width: 45%;
+}
+
+.upc1 {
+  width: 55%;
+  height: 350px;
+}
+
+.f-left {
+  float: left;
+}
+
+.bg-color {
+  background: #f6f6f6;
+}
+
+.lorem {
+  color: rgb(139, 136, 136);
+  font-size: 14px;
+  padding: 5px 60px;
+}
+
+.circle_c {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fd7e14;
+  text-align: center;
+  padding: 4px;
+}
+
+.phone {
+  position: relative;
+}
+
+.phone_p {
+  position: absolute;
+  top: 25%;
+  left: 6%;
+}
+
+p {
+  margin-bottom: 3px !important;
+}
+
+.p1 {
+  color: rgb(102, 102, 102);
+}
+
+/* ------------------end upcoming sec---------------------- */
+/* -----------------start blog sec---------------------- */
+.caption_box {
+  height: 345px;
+  width: 420px;
+  background: rgba(255, 127, 0, 0.95) none repeat scroll 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  /* border: 1px solid white; */
+  transition: .5s ease-in-out;
+}
+.caption_box:hover {
+  opacity: 1;
+}
+.caption_box::before
+{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  height: 300px;
+  width: 380px;
+  align-items: center;
+  border: 1px solid white;
+
+}
+.text {
+  color: white !important;
+  font-size: 14px;
+}
+
+.blog {
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 70px;
+}
+
+.blog i {
+  font-size: 12px;
+  color: white;
+}
+
+/* -----------------end blog sec---------------------- */
+/* -----------------start footer sec--------------------- */
+.footer {
+  width: 100%;
+  height: auto;
+  background: rgba(255, 127, 0, 0.95);
+  margin-top: 100px;
+  color: white !important;
+  font-size: 15px;
+}
+
+.footer span {
+  color: white !important;
+  /* font-size: 14px; */
+}
+
+.padding {
+  padding: 60px 100px;
+}
+
+.footer-menu li {
+  padding: 5px;
+}
+
+.form {
+  padding: 10px 30px;
+  text-align: center;
+}
+.submit
+{
+  margin-top: 20px;
+  padding: 7px 15px;
+}
+.flex1
+{
+  display: flex;
+  align-items: center;
+}
+.circle_f
+{
+  color: #f6f6f6;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+/* -----------------end footer sec--------------------- */
